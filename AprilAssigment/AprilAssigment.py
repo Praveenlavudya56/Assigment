@@ -127,17 +127,17 @@
 
 # print("Reversed Number: " + str(reversed))
 #---------------------------------------------------------------------------------------
-#14.Use a loop to display elements from a given list present at odd index positions.
-def displayoddelements(lst):
-    for i in range(1, len(lst), 2):
-        print(lst[i])
+##14.Use a loop to display elements from a given list present at odd index positions.
+# def displayoddelements(lst):
+#     for i in range(1, len(lst), 2):
+#         print(lst[i])
 
 
-n = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-displayoddelements(n)
+# n = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+# displayoddelements(n)
 
 #----------------------------------------------------------------------------------------
-# 14.Use a loop to display elements from a given list present at odd index positions.
+## 14.Use a loop to display elements from a given list present at odd index positions.
 # Given list
 # my_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']#0,1,2,3,4,5,6,7,8,9
 
@@ -145,7 +145,7 @@ displayoddelements(n)
 # for index in range(1, len(my_list), 2):
 #     print(my_list[index])
 # ---------------------------------------------------------------
-# 15: Calculate the cube of all numbers from 1 to a given number.
+## 15: Calculate the cube of all numbers from 1 to a given number.
 
 # Prompt the user to enter a number
 # num = int(input("Enter a number: "))
@@ -159,7 +159,7 @@ displayoddelements(n)
 # for cube in cubes:
 #     print(cube)
 # ------------------------------------------------------
-# 16: Find the sum of the series upto n terms.
+## 16: Find the sum of the series upto n terms.
 # Prompt the user to enter the value of n
 # n = int(input("Enter the value of n: "))
 
@@ -175,7 +175,7 @@ displayoddelements(n)
 # Display the sum
 # print("The sum of the series up to", n, "terms is:", sum)
 # ------------------------------------------------------------------------------
-# 17: Append new string in the middle of a given string.
+## 17: Append new string in the middle of a given string.
 
 # def append_in_middle(given_string, new_string):
 #     midpoint = len(given_string) // 2
@@ -191,7 +191,7 @@ displayoddelements(n)
 # result = append_in_middle(given_string, new_string)
 # print(result)
 # -----------------------------------------------------------------------------------
-# 18. Arrange string characters such that lowercase letters should come first.
+##18. Arrange string characters such that lowercase letters should come first.
 # def f1(string):
 #     sorted_string = sorted(string, key=lambda x: (not x.islower(), x))
 #     return ''.join(sorted_string)
@@ -201,7 +201,7 @@ displayoddelements(n)
 # a = f1(string)
 # print(a)
 # -------------------------------------------------------------------------------
-# 19.Count all letters, digits, and special symbols from a given string
+## 19.Count all letters, digits, and special symbols from a given string
 # def f2(string):
 #     lettercount = 0
 #     digitcount = 0
@@ -311,7 +311,7 @@ displayoddelements(n)
 # f1(mylist, 10, 3)
 # print(mylist)  # Output: [1, 2, 3, 10, 4, 5]
 # ---------------------------------------------------------------------
-# 32.Replace list’s item with new value if found.
+# 32.Replace lists item with new value if found.
 # def replaceitem(lst, item, newvalue):
 #     if item in lst:
 #         index = lst.index(item)

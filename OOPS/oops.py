@@ -181,21 +181,3 @@
 
 # drive_vehicle(car)
 # drive_vehicle(bike)
-
-
-
-
-
-   
-
-            
-
-
-   
-
-
-
-        
-
-
-

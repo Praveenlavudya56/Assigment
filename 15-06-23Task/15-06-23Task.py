@@ -5,7 +5,7 @@ sum1 = sum(d.values())
 print(sum1)
 
 
-->Number of occurrences of each letter present in the string in Dictionary . aabbcdeaabbceder
+#->Number of occurrences of each letter present in the string in Dictionary . aabbcdeaabbceder
 
 
 string = "aabbcdeaabbceder"
@@ -18,7 +18,7 @@ for i in string:
 print(T)
 
 
-->Number of occurrences of each vowel present in the given string 
+#->Number of occurrences of each vowel present in the given string 
 
 string = ".aabbcdeaabbceder"
 vowels = "aeiou"
@@ -31,7 +31,7 @@ for i in string:
             count[i.lower()] = 1
         print(i)
 
-->Write a pro adding the student name and marks from keyboard  and create a dict also display student marks by taking student name as input.
+#->Write a pro adding the student name and marks from keyboard  and create a dict also display student marks by taking student name as input.
 
 
 n = int(input("Enter students number: "))  
