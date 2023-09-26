@@ -68,6 +68,6 @@ root.left.right = TreeNode(5)
 root.right.left = TreeNode(6)
 root.right.right = TreeNode(7)
 
-print("Preorder:", preorder(root))
-print("Inorder:", inorder(root))
+print("Preorder :", preorder(root))
+print("Inorder  :", inorder(root))
 print("Postorder:", postorder(root))
